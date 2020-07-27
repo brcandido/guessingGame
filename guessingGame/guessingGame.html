@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jogo de Adivinhação</title>
+        <meta charset="UTF-8" />
+        <meta lang="pt-BR" />
+        <meta name="author" content="Bruno" />
+        <meta name="version" content="0.0.1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <link href="styles.css" type="text/css" rel="stylesheet"> -->
+    </head>
+    <body>
+        <p>
+            Digite um número inteiro:<br />
+            <input type="number" id="numeroUsuario"> <br />
+            Selecione o intervalo que contem o numero inserido: <br />
+            <input type="radio" name="intervalo" value="menor" checked="checked" />
+            0 até 9
+            <input type="radio" name="intervalo" value="maior" />
+            0 até 99 <br />
+            <button onclick="adivinhar()">Adivinhar</button>
+        </p>
+    </body>
+    <script src="script.js"></script>
+</html>
