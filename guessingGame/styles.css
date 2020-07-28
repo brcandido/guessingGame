@@ -1,0 +1,29 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    height: 300px;
+    justify-content: flex-start;
+    align-content: flex-start;
+ }
+ 
+ .formulario{
+   width: 300px;
+   height: 100px;
+   margin-left:300px;
+   margin-right: auto;
+   margin-top: 150px;
+   margin-bottom: auto;
+   
+ }
+
+ .titulo{
+    width: auto;
+    height: 100px;
+    margin: auto;
+    font-size: 32px;
+    color:gainsboro;
+    background-color: rebeccapurple;
+ }
